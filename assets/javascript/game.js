@@ -33,6 +33,7 @@ document.onkeyup = function(event){
 if (player === computer){
   win ++;
   userGuessedLetters =[];
+  alert('Look at you! You really know your alphabet, you won!!!');
   guessCount = 10;
   reset();
 }
@@ -44,6 +45,7 @@ if (player !== computer){
 
 if (guessCount == 0){
   loss ++;
+  alert('You used all your guesses and couldnt guess the right letter, ya looser. Click okay to try again!!')
   userGuessedLetters = [];
   reset();
   
