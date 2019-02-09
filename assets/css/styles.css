@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Kodchasan:200,400,700');
+
+body{
+    background-image: url(../images/alphabet.jpg);
+    padding-top: 5%;
+}
+ 
+.container{
+    width: 70%;
+    background-color:rgba(255, 255, 255, 0.918);
+    padding:10px;
+    margin:auto;
+}
+
+h1{
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    padding-left: 4%;
+}
+
+p{
+    font-family: 'Kodchasan', sans-serif;
+    font-size: .9em;
+    font-weight: 200;
+    padding-left: 4%;
+
+}
